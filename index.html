@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contenido.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <title>listaetfs</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="contenedor-1">
+        <img src="img/map-1.jpg">
+        <div class="centrado">
+          <h2>Escoge tu ETF</h2>
+          <br>
+          <p>Los ETF'S son parte de cada una de las regiones en las cules
+            se pueden buscar</p><p>  para ver la mejor opcion a elegir
+          </p>
+        </div>
+    </header>
+    <nav class="navbar">
+        <div class="api">
+  <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://es.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets</span></a> by TradingView</div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols": [
+      {
+        "description": "VOO",
+        "proName": "AMEX:VOO"
+      },
+      {
+        "description": "QQQ",
+        "proName": "NASDAQ:QQQ"
+      },
+      {
+        "description": "DIA",
+        "proName": "AMEX:DIA"
+      },
+      {
+        "description": "VIG",
+        "proName": "AMEX:VIG"
+      },
+      {
+        "description": "VYM",
+        "proName": "AMEX:VYM"
+      },
+      {
+        "description": "SPY",
+        "proName": "AMEX:SPY"
+      }
+    ],
+    "showSymbolLogo": true,
+    "colorTheme": "light",
+    "isTransparent": false,
+    "displayMode": "regular",
+    "locale": "es"
+  }
+    </script>
+  </div>
+<!--  TradingView Widget END -->
+</div>
+    </nav>
+    <main class="contenido">
+        <div class="lista-1">
+            <h2>Lista</h2>
+            <br>
+            <p>Aquí se muestra algunos ETS's de los cuales puedes buscar por región o símbolo.
+                 </p>
+                 <br>
+                <article>
+                    <!--barra de buscar-->
+                    <input type="text" id="search" placeholder="Buscar..." />
+    
+                    <!--buscar por region-->
+                    <select id="searchInput" name="tipoPre" id="tipoPre">
+    
+                        <option value="" disabled selected>Seleccione region</option>
+                        <option value="Europa">Europa</option>
+                        <option value="Norteamerica">Norteamerica</option>
+                        <option value="Asia">Asia</option>
+                        <option value="Suramerica">Suramerica</option>
+                        <option value="Australia">Australia</option>
+                    </select>  
+                    <br>
+                    <br>
+                    <table id="myTable" class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <div class="d-flex p-2 bd-highlight">
+                                    <th>Nombre</th>
+                                    <th>Simbolo</th>
+                                    <th>Pais</th>
+                                    <th>Region</th>
+                            </tr>
+                        </thead>
+                        <tbody id="fbody">
+                    <!--Alemania-->
+ <div class="europa">
+<tr class="Europa">
+    <td>1</td>
+    <td>WisdomTree Natural Gas DE</td>
+    <td> OD7L</td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>2</td>
+    <td>db x-trackers S&P 500 2x Inverse Daily UCITS 1C</td>
+    <td> DBPK</td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>3</td>
+    <td> WisdomTree Physical Gold - EUR Daily Hedged DE</td>
+    <td> 03V1</td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>4</td>
+    <td>iShares MSCI World Small Cap UCITS USD Acc</td>
+    <td>IUSN</td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>5</td>
+    <td>iShares Edge MSCI USA Value Factor</td>
+    <td>QDVI</td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr>
+    <td>6</td>
+    <td> iShares EURO STOXX Banks 30-15 UCITS</td>
+    <td> SX7EEX</td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>7</td>
+    <td>iShares Global Clean Energy UCITS</td>
+    <td>IQQH</td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>8</td>
+    <td>db x-trackers ShortDAX x2 Daily UCITS 1C</td>
+    <td>DBPD</td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>9</td>
+    <td>iShares Sust MSCI USA SRI</td>
+    <td>QDVR</td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr s>
+    <td>10</td>
+    <td>iShares STOXX Europe 600 Banks UCITS</td>
+    <td> SX7PEX</td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr>
+    <td>11</td>
+    <td>iShares USD Treasury Bond 20+Yr DE</td>
+    <td>IS04</td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>12</td>
+    <td>iShares Edge MSCI USA Momentum Factor UCITS USD Ac </td>
+    <td>QDVA </td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr>
+    <td>13</td>
+    <td>iShares MSCI Europe Value Factor</td>
+    <td>CEMS</td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>14</td>
+    <td>Deka MSCI China UCITS</td>
+    <td>ETFCHI.</td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>15</td>
+    <td>iShares STOXX Europe 600 UCITS</td>
+    <td>STOXXI.</td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>16</td>
+    <td>iShares MSCI World SRI UCITS ETF EUR (Acc)</td>
+    <td>2B7K</td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr>
+    <td>17</td>
+    <td> iShares Nasdaq US Biotechnology UCITS USD (Acc)</td>
+    <td> BTEC</td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>18</td>
+    <td>L&G DAX Daily 2x Short UCITS</td>
+    <td>DES2</td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>19</td>
+    <td>iShares Automation & Robotics UCITS USD (Acc)</td>
+    <td>2B76</td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>20</td>
+    <td>WisdomTree Corn DE</td>
+    <td>OD7D</td>
+    <td>Alemania</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>21</td>
+    <td>Al Khabeer Diversified Income</td>
+    <td>4700</td>
+    <td>Arabia Saudita</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>22</td>
+    <td>FALCOM Financial Services</td>
+    <td>9400</td>
+    <td>Arabia Saudita</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>23</td>
+    <td>Albilad Gold</td>
+    <td>9405</td>
+    <td>Arabia Saudita</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>24</td>
+    <td>Albilad Saudi Sovereign Sukuk</td>
+    <td>9403</td>
+    <td>Arabia Saudita</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>25</td>
+    <td>Alinma Saudi Government Sukuk - Short Maturity</td>
+    <td>9404</td>
+    <td>Arabia Saudita</td>
+    <td>Europa</td>
+</tr>
+<tr >
+    <td>26</td>
+    <td>Falcom Petrochemical</td>
+    <td>9401</td>
+    <td>Arabia Saudita</td>
+    <td>Europa</td>
+</tr>
+<tr>
+    <td>27</td>
+    <td>HSBC Amanah Saudi 20</td>
+    <td>9402</td>
+    <td>Arabia Saudita</td>
+    <td>Europa</td>
+</tr>
+<!---->
+</div>
+<div class="australia">
+<!---Autralia-->
+<tr class="Australia">
+    <td>28</td>
+<td> Betashares U.S. Equities Strong Bear Currency Hedg</td>
+<td> BBUS</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<tr>
+    <td>29</td>
+ 	<td> BetaShares Australian Equities Strong Bear Hedge</td>
+<td> BBOZ</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<tr >
+    <td>30</td>
+ <td>	Montgomery Global Equities Fund</td>
+<td> MOGL</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<tr >
+    <td>31</td>
+ <td>	Betashares Active Australian Hybrids</td>
+<td> HBRD</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<tr >
+    <td>32</td>
+ <td>	Magellan Global Equities</td>
+<td> MHG</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<tr >
+    <td>33</td>
+ <td>	Betashares Global Cybersecurity</td>
+<td> HACK</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<tr >
+    <td>34</td>
+ <td>	BetaShares Global Sustainability Leaders</td>
+<td> ETHI</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<tr >
+    <td>35</td>
+ <td>	Magellan Infrastructure Fund (Currency Hedged)</td>
+<td> MICH</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<tr >
+    <td>36</td>
+ <td>	BetaShares Geared Australian Equity Hedge</td>
+<td> GEAR</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<tr >
+    <td>37</td>
+ <td>	Betashares Nasdaq 100</td>
+<td> NDQ</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<tr>
+    <td>38</td>
+ <td>	Fidelity Global Emerging Markets</td>
+<td> FEMX</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<tr >
+    <td>39</td>
+ <td>	Ishares Core S&P/Asx 200</td>
+<td> IOZ</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<tr >
+    <td>40</td>
+ <td>	Betashares Global Energy Companies</td>
+<td> FUEL</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<tr >
+    <td>41</td>
+ <td>	BetaShares Australian Sustainability Leaders</td>
+<td> FAIR</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<tr >
+    <td>42</td>
+ <td>	Vanguard Australian Shares</td>
+<td> VAS</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<tr>
+    <td>43</td>
+ <td>	BetaShares Crude Oil Currency Hedged</td>
+<td> OOO</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<tr >
+    <td>44</td>
+ <td>	Betashares asia Technology Tigers</td>
+<td>asia</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<tr >
+    <td>45</td>
+ <td>	VanEck Vectors Global Clean Energy</td>
+<td> CLNE</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<tr >
+    <td>46</td>
+ <td>	BetaShares Sustainability Leaders Diversified Bond</td>
+<td> GBND</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<tr >
+    <td>47</td>
+ 	<td> WCM Quality Global Growth</td>
+<td> WCMQ</td>
+<td>Australia</td>
+<td>Australia</td>
+</tr>
+<!----->
+
+</div>
+<div class="belgica">
+<!-- B�lgica-->
+<tr class="Europa">
+    <td>68</td>
+<td> Lyxor UCITS BEL 20 TR</td>
+<td> BEL</td>
+<td>Belgica</td>
+<td>Europa</td>
+</tr>
+<!-- -->
+
+</div>
+<div class="brasil">
+<!--- Brasil-->
+<tr class="Suramerica">
+    <td>69</td>
+<td>Ishares Ibovespa</td>
+<td> BOVA11</td>
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+
+<tr>
+    <td>70</td>
+ <td>	Hashdex Nasdaq Crypto</td>
+<td> HASH11</td>
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+<tr>
+    <td>71</td>
+ <td>	It Now Ibovespa Fundo De Indice</td>
+<td> BOVV11</td>
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+<tr>
+    <td>72</td>
+ <td>	Trend MSCI europa</td>
+<td> EURP11</td>
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+<tr>
+    <td>73</td>
+ <td>	Fundo de Invest Ishares SP 500</td>
+<td>  IVVB11</td>
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+<tr>
+    <td>74</td>
+ <td>	Trend ETF LBMA Ouro FI Indice IE</td>
+<td> GOLD11</td>
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+<tr>
+    <td>75</td>
+ <td>	It Now Small Cap Fundo de indice</td>
+<td>SMAC11</td> 
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+<tr>
+    <td>76</td>
+ <td>	Trend ETF MSCI China Fundo de Investimento indice</td>
+<td> XINA11</td>
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+<tr>
+    <td>77</td>
+ <td>	iShares BM&FBOVESPA Small Cap</td>
+<td> SMAL11</td>
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+<tr>
+    <td>78</td>
+ <td>	Trend ETF Nasdaq 100 Fundo de indice</td>
+<td> NASD11</td>
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+<tr>
+    <td>79</td>
+ <td>	Trend ETF MSCI ACWI Fundo de indice</td>
+<td> ACWI11</td>
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+<tr>
+    <td>80</td>
+ <td>	It Now IFNC</td>
+<td> FIND11</td>
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+<tr>
+    <td>81</td>
+ <td>	ETF Bradesco Ibovespa Fdo De Indice</td>
+<td> BOVB11</td>
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+<tr>
+    <td>82</td>
+ <td>	iShares U.S. Technology BDR</td>
+<td> BIYW39</td>
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+<tr>
+    <td>83</td>
+ <td>	Trend IFIX Fundo de indice</td>
+<td> XFIX11</td>
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+<tr>
+    <td>84</td>
+<td> iShares Core S&P Total US Stock Market BDR</td>
+<td> BITO39</td>
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+<tr>
+    <td>85</td>
+ <td>	It Now SP500 TRN</td>
+<td> SPXI11</td>
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+<tr>
+    <td>86</td>
+ <TD>	iShares MSCI United Kingdom BDR</TD>
+<td> BEWU39</td>
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+<tr>
+    <td>87</td>
+ <td>	Ishares Core S&P 500 BDR</td>
+<td> BIVB39</td>
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+<tr>
+    <td>88</td>
+ <td>	BB ETF Ibovespa Fundo de Indice</td>
+<td> BBOV11</td>
+<td>Brasil</td>
+<td>Suramerica</td>
+</tr>
+<!---->
+
+</div>
+<div class="bulgaria">
+<!--bulgaria-->
+<tr class="Europa">
+    <td>89</td>
+ <td>	EXPAT Bulgaria SOFIX</td>
+<td> BGX</td>
+<td>Bulgaria</td>
+<td>Europa</td>
+</tr>
+<!---->
+</div>
+<div class="canada">
+<!--canada-->
+<tr class="Norteamerica">
+    <td>90</td>
+<td> iShares S&P/TSX Capped Energy</td>
+<td> XEG</td>
+<td>Canada</td>
+<td>Norteamerica</td>
+<tr>
+    <td>91</td>
+ <td>	iShares S&P/TSX 60</td>
+<td> XIU</td>
+<td>Canada</td>
+<td>Norteamerica</td>
+</tr>
+<tr>
+    <td>92</td>
+ <td>	BetaPro Natural Gas 2x Daily Bear</td>
+<td> HND</td>
+<td>Canada</td>
+<td>Norteamerica</td>
+</tr>
+<tr>
+    <td>93</td>
+ <td>	iShares S&P/TSX Global Gold</td>
+<td> XGD</td>
+<td>Canada</td>
+<td>Norteamerica</td>
+</tr>
+<tr>
+    <td>94</td>
+ <td>	BetaPro Natural Gas 2x Daily Bull</td>
+<td> HNU</td>
+<td>Canada</td>
+<td>Norteamerica</td>
+</tr>
+<tr>
+    <td>95</td>
+ <td>	Purpose Bitcoin CAD Non-Currency Hedged Units</td>
+<td> BTCCb</td>
+<td>Canada</td>
+<td>Norteamerica</td>
+</tr>
+<tr>
+    <td>96</td>
+ <td>	BetaPro Crude Oil 2x Daily Bear</td>
+<td> HOD</td>
+<td>Canada</td>
+<td>Norteamerica</td>
+</tr>
+<tr>
+    <td>97</td>
+ <td>	CI Galaxy Ethereum ETF</td>
+<td> ETHXb </td>
+<td>Canada</td>
+<td>Norteamerica</td>
+</tr>
+<tr>
+    <td>98</td>
+ <td>	Purpose Bitcoin USD Non-Currency Hedged</td>
+<td> BTCCu</td>
+<td>Canada</td>
+<td>Norteamerica</td>
+</tr>
+<tr>
+    <td>99</td>
+ <td>	CI Galaxy Bitcoin C$ Unhedged Series Units</td>
+<td> BTCXb</td>
+<td>Canada</td>
+<td>Norteamerica</td>
+</tr>
+<tr>
+    <td>100</td>
+ <td>	iShares S&P/TSX Capped Utilities</td>
+<td>XUT</td> 
+<td>Canada</td>
+<td>Norteamerica</td>
+</tr>
+<tr>
+    <td>101</td>
+ <td>	BetaPro Canadian Gold Miners 2x Daily Bear</td>
+<td> HGD</td>
+<td>Canada</td>
+<td>Norteamerica</td>
+</tr>
+<tr>
+    <td>102</td>
+ <td>	BMO Canadian High Dividend Covered Call</td>
+<td> ZWC</td>
+<td>Canada</td>
+<td>Norteamerica</td>
+</tr>
+<tr>
+    <td>103</td>
+ <td>CI Galaxy Ethereum ETF (USD)</td>
+<td> ETHXu</td>
+<td>Canada</td>
+<td>Norteamerica</td>
+</tr>
+<tr>
+    <td>104</td>
+ <td>BetaPro NASDAQ-100 2x Daily Bear</td>
+<td> HQD</td>
+<td>Canada</td>
+<td>Norteamerica</td>
+</tr>
+<tr>
+    <td>105</td>
+ <td>BetaPro Canadian Gold Miners 2x Daily Bull</td>
+<td> HGU</td>
+<td>Canada</td>
+<td>Norteamerica</td>
+</tr>
+<tr>
+    <td>106</td>
+ <td>iShares S&P/TSX Capped REIT</td>
+<td> XRE</td>
+<td>Canada</td>
+<td>Norteamerica</td>
+</tr>
+<tr>
+    <td>107</td>
+ <td>	Sprott Physical Silver</td>
+<td> PSLV</td>
+<td>Canada</td>
+<td>Norteamerica</td>
+</tr>
+<tr>
+    <td>108</td>
+ <td>	BetaPro Silver 2x Daily Bear</td>
+<td> HZD</td>
+<td>Canada</td>
+<td>Norteamerica</td>
+</tr>
+<tr>
+    <td>109</td>
+ <td>	Purpose Bitcoin CAD Currency Hedged Units</td>
+<td> BTCC</td>
+<td>Canada</td>
+<td>Norteamerica</td>
+</tr>
+<!---->
+</div>
+<div class="china">
+<!--china-->
+<tr class="Asia">
+    <td>110</td>
+<td> Guotai CSI Security Agency</td>
+<td> 512880</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+<tr>
+    <td>111</td>
+ <td>	Guotai CSI National Defense Ind</td>
+<td> 512660</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+<tr>
+    <td>112</td>
+ <td>	Hwabao WP CSI Security Agency</td>
+<td> 512000</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+<tr>
+    <td>113</td>
+ <td>	ChinaAMC SSE STAR 50</td>
+<td> 588000</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+<tr>
+    <td>114</td>
+ <td>	E Fund Hang Seng China Enterprises (QDII)</td>
+<td> 510900</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+<tr>
+    <td>115</td>
+ <td>	ChinaAMC Hang Seng-QDII</td>
+<td> 159920</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+<tr>
+    <td>116</td>
+ <td>	ChinaAMC China 50</td>
+<td> 510050</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+<tr>
+    <td>117</td>
+ <td>	Penghua China Secs Wine</td>
+<td> 512690</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+<tr>
+    <td>118</td>
+ <td>	GTJA Allianz CSI Fully Semiconductor</td>
+<td> 512480</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+<tr>
+    <td>119</td>
+ <td>	Huatai-PB CSI 300</td>
+<td> 510300</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+<tr>
+    <td>120</td>
+ <td>	E Fund CSI China Ovsea Net 50 QDII</td>
+<td> 513050</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+<tr>
+    <td>121</td>
+ <td>	ChinaAMC ChiNext Momentum Growth</td>
+<td> 159967</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+<tr>
+    <td>122</td>
+ <td>	Guotai Semiconductor Industry</td>
+<td> 512760</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+<tr>
+    <td>123</td>
+ <td>	ChinaAMC CSI New En Car Ind</td>
+<td> 515030</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+<tr>
+    <td>124</td>
+ <td>	Hwabao WP CSI Bank</td>
+<td> 512800</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+<tr>
+    <td>125</td>
+ <td>	Hwabao WP CSI Technical Lead</td>
+  <td> 515000</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+<tr>
+    <td>126</td>
+ <td>	E Fund SSE STAR 50</td>
+<td> 588080</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+<tr>
+    <td>127</td>
+ <td>	Huaan Gold</td>
+<td> 518880</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+<tr>
+    <td>128</td>
+ <td>	Southern CSI SW Color Metal</td>
+<td> 512400</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+<tr>
+    <td>129</td>
+ <td>	Southern CSI Security Age</td>
+<td> 512900</td>
+<td>China</td>
+<td>Asia</td>
+</tr>
+
+</div>
+<div class="colombia">
+<!--ETFs - Colombia-->
+<tr class="Suramerica">
+    <td>130</td>
+<td>Horizons Fondo Bursatil Colombia Select de S&P	</td>
+<td>HCOLSEL		</td>
+<td>Colombia</td>
+<td>Suramerica</td>
+</tr>
+ 
+
+</div>
+<div class="coreadelsur">
+    
+<tr class="Asia">
+    <td>131</td>
+<td>SAMSUNG KODEX 200 Futures Inverse 2X</td>
+<td>252670	</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+</tr>
+  
+<tr>
+<td>132</td>
+  <td>Samsung KODEX Inverse</td>
+<td>114800</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+</tr>
+<tr>
+<td>133</td>
+  <td>Samsung KODEX Leverage</td>
+<td>122630</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+</tr>
+<tr>
+<td>134</td>
+<td>Samsung KODEX KOSDAQ150 Inverse</td>
+<td>251340</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+</tr>
+<tr>
+<td>134</td>
+<td>Samsung KODEX KOSDAQ150 Leverage</td>
+<td>233740</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+</tr>
+<tr>
+<td>135</td>
+<td>Samsung Securities Samsung Inverse 2X WTI Crude Oi</td>
+<td>Q530036</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+</tr>
+<tr>
+<td>136</td>
+<td>Samsung KODEX200</td>
+<td>069500</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+</tr>
+<tr>
+<td>136</td>
+<td>Mirae Asset TIGER 200 Futures Inverse 2X</td>
+<td>252710</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+<tr>
+<tr>
+<td>137</td>
+<td>Shinhan Investment Shinhan Leverage WTI Futures ET</td>
+<td>Q500019</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+</tr>
+<tr>
+<td>138</td>
+<td>MiraeAsset TIGER China Electric Vehicle Solactive</td>
+<td>371460</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+</tr>
+<tr>
+<td>139</td>
+  <td>Mirae Asset TIGER KRX Secondary Battery K-New Deal</td>
+<td>364980</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+</tr>
+<tr>
+<td>140</td>
+<td>	Samsung KODEX Banks</td>
+<td>091170</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+</tr>
+<tr>
+<td>141</td>
+<td>KB KBSTAR Short-term KTB Active</td>
+<td>272560</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+</tr>
+<tr>
+<td>142</td>
+<td>Samsung KODEX KOSDAQ 150</td>
+<td>229200</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+</tr>
+<tr>
+<td>143</td>
+  <td>MiraeAsset TIGER WTI Futures</td>
+<td>130680</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+</tr>
+<tr>
+<td>144</td>
+<td>	Samsung Securities Leverage WTI Crude Oil Futures</td>
+<td>Q530031</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+</tr>
+<tr>
+<td>145</td>
+<td> 	MiraeAsset TIGER 200 Financials</td>
+<td>139270</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+</tr>
+<td>146</td>
+<td>	Shinhan Investment Shinhan Inverse 2X WTI Futures</td>
+<td>Q500027</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+</tr>
+<tr>
+<td>147</td>
+  <td>Samsung KODEX Secondary Battery Industry</td>
+<td>305720</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+</tr>
+<tr>
+<td>148</td>
+<td>Samsung KODEX KRW CASH PLUS</td>
+<td>214980</td>
+<td>Corea del sur</td>
+<td>Asia</td>
+</tr>
+
+</div>
+<div class="croacia">
+<!--ETFs - Croacia-->
+<tr class="Europa">
+    <td>131</td>
+<td>InterCapital SBI TOP UCITS</td>
+<td>7SLO	</td>
+<td>Croacia</td>
+<td>Europa</td>
+</tr>
+
+</div>
+<div class="diamarca">
+    <tr class="Europa">
+        <td>131</td>
+  <td>Danske Invest Global</td>
+ <td>DKIGI</td>
+ <td>dinamarca</td>
+ <td>Europa</td>
+ </tr>
+ 
+ 
+ 
+ <!--Xact Kapitalforvaltning
+ XACTC25
+ Sparinvest US Growth
+ SPIUSG.
+ Danske Invest Europa Indeks
+ DKIEUIX
+ Danske Invest Global Sustainable Future DKK d
+ DKIGSF.
+ BankInvest Lange Danske Obligationer
+ BAILDO.
+ Sparinvest DJSI World
+ SPIDJW.
+ Danske Invest Danmark Indeks
+ DKIDKIX
+ Danske Invest Fjernosten
+ DKIFJIX
+ Sparinvest USA Value
+ SPIUSV.
+ BankInvest Korte Danske Obligationer
+ BAIKDO.
+ Danske Invest Danmark
+ DKIDK
+ Carnegie WorldWide/Globale Aktier
+ CWIGAKL
+ Sparinvest Europa Growth
+ SPIEUG.
+ Sparinvest USA Small Cap
+ SPIUSS.
+ Danske Invest Europa
+ DKIEU
+ Handelsinvest Verden
+ HAIVER
+ BankInvest Hojrentelande
+ BAIEMO.
+ Sparinvest Europa Small Cap
+ SPIEUC.
+ BankInvest Virksomhedsobligatione
+ BAIVOI.
+ -->
+</div>
+                        </tbody>
+                    </table>
+                    <section class="page">
+                        <ul class="pagination justify-content-center" id="myPager"></ul> 
+                    </section>
+                </article>
+            </div>
+            </main>
+        <footer class="footer">
+            <p>&copy; 2022 Listaetfs.space</p>
+        </footer>    
+     </div>
+</body> 
+</html>
+<script src="script/script.js"></script>

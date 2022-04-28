@@ -1,0 +1,35 @@
+#banner3 img{
+width: 100%;
+height: auto;
+}
+/* estilo de la numeracion para moverse entre pagibna*/
+.page {
+    margin: 20px 0;
+  }
+  
+  .page ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  .page ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .page ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background: #428290;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  
+  .page ul li a:hover {
+    background: #037e8c;
+  }
+  
+  .page ul li .active {
+    font-weight: bold;
+  }
