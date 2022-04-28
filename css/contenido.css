@@ -21,13 +21,15 @@
   display: block;
   padding: 10px 20px;
   color: #fff;
-  background: #428290;
+  background: #9db2bd;
   text-decoration: none;
   border-radius: 10px;
+  transition: 0.5s;
 }
 
 .page ul li a:hover {
   background: #037e8c;
+  transform: scale(1.1);
 }
 
 .page ul li .active {
