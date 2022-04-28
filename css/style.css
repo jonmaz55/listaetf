@@ -134,12 +134,14 @@ tr td {
 }
 @media screen and (max-width: 320px) {
   .container {
-    grid-template-rows: auto auto 1fr;
+    grid-template-columns: auto auto auto; /*este deja el footer hasta bajo en responnsive*/
     grid-template-areas:
-      "header header header"
-      "navbar navbar navbar"
-      "contenido contenido contenido "
-      "footer footer footer";
+      "header "
+      "navbar "
+      "section-1 "
+      "contenido  "
+      "section-2 "
+      "footer";
   }
   .centrado {
     font-size: 15px;
