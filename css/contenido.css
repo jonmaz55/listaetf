@@ -19,12 +19,13 @@
 
 .page ul li a {
   display: block;
-  padding: 10px 20px;
+  padding: 8px 20px;
   color: #fff;
   background: #9db2bd;
   text-decoration: none;
   border-radius: 10px;
   transition: 0.5s;
+  margin: 2px;
 }
 
 .page ul li a:hover {
@@ -37,23 +38,23 @@
 }
 
 /*buscador*/
-
-#searchInput {
-  border: 1px solid rgb(0, 0, 0);
+.tabla-list{
+  text-align: -webkit-center;
 }
 
 #search {
   border: 1px solid rgb(0, 0, 0);
+  margin: 1px;
 }
 
-.lista-2 {
-  text-align: -webkit-center;
+#myTable {
+  text-align:  initial;
 }
 
 /*formulario*/
 .formulario {
   background-color: #d1d4dc;
-  min-width: 62%;
+  min-width: 65%;
   padding: 20px;
   display: flex;
   flex-direction: column;

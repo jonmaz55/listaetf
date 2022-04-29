@@ -1,39 +1,18 @@
+   ///buscar por 
+   $("#search").keyup(function() {
+    _this = this;
 
-//aleatorio
-
-
-    //buscador de tablas
-    $("#search").keyup(function() {
-        _this = this;
-
-        $.each($(" tbody tr"), function() {
-            if ($(this).text().toLowerCase().indexOf($(_this).val().toLowerCase()) === -1)
-                $(this).hide();
-            else
-                $(this).show();
-        });
+    $.each($(" tbody tr"), function() {
+        if ($(this).text().toLowerCase().indexOf($(_this).val().toLowerCase()) === -1)
+            $(this).hide();
+        else
+            $(this).show();
     });
+});
+  /////////////////////////////////////////
 
-    //para escoger region
-    function habilitar() {
-        var e = document.getElementById("value");
-        e.options[e.selectedIndex].disabled = false;
-    }
-
-    //buscador de tablas
-    $("#tipoPre").keyup(function() {
-        _this = this;
-
-        $.each($("value 1 2 3"), function() {
-            if ($(this).text().toLowerCase().indexOf($(_this).val().toLowerCase()) === -1)
-                $(this).hide();
-            else
-                $(this).show();
-        });
-    });
-///////////////////////////////
-
-$.fn.pageMe = function(opts) {
+  //iconos de desplasamiento
+  $.fn.pageMe = function(opts) {
     var $this = this,
         defaults = {
             perPage: 7,
@@ -139,59 +118,9 @@ $(document).ready(function() {
         pagerSelector: '#myPager',
         showPrevNext: true,
         hidePageNumbers: false,
-        perPage: 26
+        perPage: 30
     });
 
 });
 
-//buscador
-$("#search").keyup(function() {
-    _this = this;
-
-    $.each($(" tbody tr"), function() {
-        if ($(this).text().toLowerCase().indexOf($(_this).val().toLowerCase()) === -1)
-            $(this).hide();
-        else
-            $(this).show();
-    });
-});
-//para escoger region
-$("#searchInput").change(function() {
-    if (this.value != "") // Solo modifique esta linea
-    {
-        //split the current value of searchInput
-        var data = this.value.split(" ");
-        //create a jquery object of the rows
-        var jo = $("#fbody").find("tr");
-
-        if (this.value == "" || this.value == "all") {
-
-            jo.show();
-            return;
-        }
-
-        //hide all the rows
-        jo.hide();
-
-        //Recusively filter the jquery object to get results.
-        jo.filter(function(i, v) {
-                var $t = $(this);
-                for (var d = 0; d < data.length; ++d) {
-                    if ($t.is(":contains('" + data[d] + "')")) {
-                        return true;
-                    }
-                }
-                return false;
-            })
-            //show the rows that match.
-            .show();
-    }
-}).focus(function() {
-    this.value = "";
-    $(this).css({
-        "color": "black"
-    });
-    $(this).unbind('focus');
-}).css({
-    "color": "#C0C0C0"
-});
+  /////
