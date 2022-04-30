@@ -118,7 +118,7 @@ $(document).ready(function() {
         pagerSelector: '#myPager',
         showPrevNext: true,
         hidePageNumbers: false,
-        perPage: 30
+        perPage: 60
     });
 
 });

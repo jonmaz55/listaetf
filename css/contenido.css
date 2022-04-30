@@ -38,7 +38,7 @@
 }
 
 /*buscador*/
-.tabla-list{
+.tabla-list {
   text-align: -webkit-center;
 }
 
@@ -48,7 +48,7 @@
 }
 
 #myTable {
-  text-align:  initial;
+  text-align: initial;
 }
 
 /*formulario*/
@@ -59,33 +59,57 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  align-items: center;
   text-align: left;
 }
 .formulario input {
   width: 10rem;
+  border: 1px solid;
 }
 .formulario textarea {
   width: 10rem;
   height: 100px;
+  border: 1px solid;
 }
 /*///////////*/
 /*publicidad*/
-.amazon-1{
+.amazon-1 {
   margin-top: 50px;
   max-width: 100%;
 }
 
-.amazon-1 img{
-  width: 100%;
-}
-.fiel{
+.fiel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   padding: 20px;
 }
-.article{
-  /*margin: 10px;*/
+.article {
+  background-color: yellow;
+  position: relative;
+  border: 1px solid #d1d4dc;
+}
+.article img {
+  align-items: center;
+  width: 250px;
+  height: 350px;
+  position: relative;
+}
+/*button*/
+.button-3{
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+ width: 150px;
+ text-decoration: none;
+ cursor: pointer;
+ border: none;
+ text-align: center;
+}
+.button-3:hover{
+  border: 1px solid rgb(0, 0, 0);
   background-color: #fff;
+  color: rgb(0, 0, 0);
 }
-.article p{
-  /*margin-top: 0%;*/
-}
+
 /*/////////////*/

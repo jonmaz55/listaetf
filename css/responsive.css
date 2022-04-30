@@ -1,0 +1,53 @@
+@media screen and (max-width: 550px) {
+  .container {
+    grid-template-columns: auto auto auto; /*este deja el footer hasta bajo en responnsive*/
+    grid-template-areas:
+      "header "
+      "navbar "
+      "section-1 "
+      "contenido  "
+      "section-2 "
+      "footer";
+  }
+  /*header*/
+  .header {
+    height: 500px;
+  }
+  .centrado {
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .contenedor-1 img {
+    height: 500px;
+  }
+  /*/////////*/
+
+  .navbar {
+    margin-top: 0px;
+  }
+
+  /*anuncio*/
+  .formulario {
+    width: 60%;
+    text-align: center;
+    min-width: 30%;
+  }
+  .amazon-1 {
+    max-width: 100%;
+  }
+  .fiel {
+      flex-direction: row;
+      width: 60%;
+ }
+ 
+.article img {
+    width: 100%;
+    height: auto;
+}
+  .article p {
+    margin-top: 0%;
+    font-size: 12px;
+  }
+
+}
