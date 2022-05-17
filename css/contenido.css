@@ -50,7 +50,14 @@
 #myTable {
   text-align: initial;
 }
-
+/*comparador*/
+.comparador{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 /*formulario*/
 .formulario {
   background-color: #d1d4dc;
@@ -96,17 +103,17 @@
   position: relative;
 }
 /*button*/
-.button-3{
+.button-3 {
   background-color: black;
   color: #fff;
   padding: 10px;
- width: 150px;
- text-decoration: none;
- cursor: pointer;
- border: none;
- text-align: center;
+  width: 150px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  text-align: center;
 }
-.button-3:hover{
+.button-3:hover {
   border: 1px solid rgb(0, 0, 0);
   background-color: #fff;
   color: rgb(0, 0, 0);
@@ -114,7 +121,7 @@
 
 /*/////////////*/
 /*footer*/
-.footer img{
+.footer img {
   max-width: 20px;
   margin: 0px 60px;
 }

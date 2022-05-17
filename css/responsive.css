@@ -4,9 +4,10 @@
     grid-template-areas:
       "header "
       "navbar "
-      "section-1 "
-      "contenido  "
-      "section-2 "
+      "section-1"
+      "contenido"
+      "section-3"
+      "section-2"
       "footer";
   }
   /*header*/
@@ -28,6 +29,9 @@
   }
 
   /*anuncio*/
+  .section-1 {
+    height: 350px;
+  }
   .formulario {
     width: 60%;
     text-align: center;
@@ -37,19 +41,22 @@
     max-width: 100%;
   }
   .fiel {
-      flex-direction: row;
-      width: 80%;
-      padding: 10px;
- }
- 
-.article img {
+    flex-direction: row;
+    width: 80%;
+    padding: 10px;
+  }
+
+  .article img {
     width: 100%;
     height: auto;
-}
+  }
   .article p {
     margin-top: 0%;
     font-size: 12px;
     padding: 5px;
   }
-
+  .section-3 {
+    overflow: scroll;
+    align-items: center;
+  }
 }

@@ -14,7 +14,7 @@ body {
 .container {
   display: grid;
   min-height: 100vh; /*es oara que ocupe todo el espacio*/
-  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-columns: 1.5fr 4fr 1fr ;
   /*grid-template-rows: auto 1.2fr;
   grid-auto-columns: 1fr;*/
   grid-auto-flow: row;
@@ -22,6 +22,7 @@ body {
     "header header header"
     "navbar navbar navbar"
     "section-1 contenido section-2"
+    "section-3 section-3 section-3"
     "footer footer footer";
 }
 .container > * {
@@ -66,6 +67,9 @@ body {
 .section-1 {
   grid-area: section-1;
   padding: 20px;
+  overflow: hidden;
+  text-align: center;
+  height: 500px;
 }
 .section-2 {
   grid-area: section-2;
@@ -88,11 +92,11 @@ body {
 }
 .lista-1 {
   background: #fff;
-  position: relative;
+  /*position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 90%;
+  width: 90%;*/
   padding: 20px;
   border: 2px solid;
   font-family: "Akshar", sans-serif; /*listas font*/
@@ -101,3 +105,6 @@ tr td {
   padding: 10px;
 }
 
+.section-3{
+  grid-area: section-3;
+}
